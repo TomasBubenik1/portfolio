@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import { Navbar } from "./components/Navbar";
+import { NavbarWrapper } from "./components/Navbar/NavbarWrapper";
 
 function App() {
   return (
     <div className=" bg-black w-screen h-screen flex flex-col justify-center items-center">
-      <Navbar></Navbar>
+      <NavbarWrapper></NavbarWrapper>
     </div>
   );
 }
